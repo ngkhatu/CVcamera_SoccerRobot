@@ -1,0 +1,7 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\SerPoll.x30"
+"C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ncrt0.r30"
+"C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\mcu_init.r30"
+"C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ser_poll_demo.r30"

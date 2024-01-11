@@ -1,0 +1,7 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug_M16C_R8C_FoUSB_UART\SerPoll.x30"
+"C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug_M16C_R8C_FoUSB_UART\ncrt0.r30"
+"C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug_M16C_R8C_FoUSB_UART\mcu_init.r30"
+"C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug_M16C_R8C_FoUSB_UART\ser_poll_demo.r30"

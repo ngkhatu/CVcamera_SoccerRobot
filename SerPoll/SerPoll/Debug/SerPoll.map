@@ -1,0 +1,131 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+C:\Renesas\NC30WA\V540R00\bin\ln30.exe @C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\SerPoll.m16cl
+
+# LINK FILE INFORMATION
+ncrt0 (C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ncrt0.r30)
+	Nov 18 00:36:00 2007
+
+mcu_init (C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\mcu_init.r30)
+	Nov 18 00:35:59 2007
+
+ser_poll_demo (C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ser_poll_demo.r30)
+	Nov 18 00:36:00 2007
+
+_mbase (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:04 2005
+
+bcopy (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:07 2005
+
+bzero (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:07 2005
+
+mdata (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:18 2005
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0
+bss_SE                           REL DATA    000400 000000 2     ncrt0
+data_SO                          REL DATA    000400 000000       ncrt0
+bss_SO                           REL DATA    000400 000000       ncrt0
+data_NE                          REL DATA    000400 000000 2     ncrt0
+                                 REL DATA    000400 000010 2     mdata
+bss_NE                           REL DATA    000410 000000 2     ncrt0
+                                 REL DATA    000410 000004 2     _mbase
+                                 REL DATA    000414 000008 2     mdata
+data_NO                          REL DATA    00041C 000000       ncrt0
+bss_NO                           REL DATA    00041C 000000       ncrt0
+stack                            REL DATA    00041C 000600       ncrt0
+heap                             REL DATA    000A1C 000300       ncrt0
+rom_NE                           REL ROMDATA 000D1C 000000 2     ncrt0
+rom_NO                           REL ROMDATA 000D1C 000000       ncrt0
+data_FE                          ABS DATA    010000 000000       ncrt0
+bss_FE                           REL DATA    010000 000000 2     ncrt0
+data_FO                          REL DATA    010000 000000       ncrt0
+bss_FO                           REL DATA    010000 000000       ncrt0
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0
+                                 REL ROMDATA 0F0000 00000B       ser_poll_demo
+data_SEI                         REL ROMDATA 0F000B 000000       ncrt0
+data_SOI                         REL ROMDATA 0F000B 000000       ncrt0
+data_NEI                         REL ROMDATA 0F000B 000000       ncrt0
+                                 REL ROMDATA 0F000B 000010       mdata
+data_NOI                         REL ROMDATA 0F001B 000000       ncrt0
+data_FEI                         REL ROMDATA 0F001B 000000       ncrt0
+data_FOI                         REL ROMDATA 0F001B 000000       ncrt0
+switch_table                     REL ROMDATA 0F001B 000000       ncrt0
+program                          REL CODE    0F001B 000000       ncrt0
+                                 REL CODE    0F001C 000044 2     mcu_init
+                                 REL CODE    0F0060 000179 2     ser_poll_demo
+                                 REL CODE    0F01DA 000035 2     bcopy
+                                 REL CODE    0F0210 000028 2     bzero
+interrupt                        REL CODE    0F0238 000000       ncrt0
+                                 REL CODE    0F0238 000117       ncrt0
+program_S                        REL CODE    0F034F 000000       ncrt0
+vector                           ABS ROMDATA 0FF800 000100       ncrt0
+svector                          ABS ROMDATA 0FFF00 000000       ncrt0
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0
+# Total -------------------------------------------------------------------
+                                     DATA           00091C(0002332) Byte(s)
+                                     ROMDATA        00011F(0000287) Byte(s)
+                                     CODE           000334(0000820) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$exit              0f034c  __mbase            000410  __memt             000408
+__mnext            000414  __msize            000418  __pool             000400
+_bcopy             0f01da  _bzero             0f0210  _delay             0f0060
+_demo1             0f00fe  _demo2             0f013e  _demo2_ser_tx      0f00d6
+_demo3             0f0160  _exit              0f034c  _init_UART0        0f007c
+_main              0f01a6  _mcu_init          0f001c  dummy_int          0f034e
+start              0f0238  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0 ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ncrt0.r30 )
+@ mcu_init ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\mcu_init.r30 )
+@ ser_poll_demo ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ser_poll_demo.r30 )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0 ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ncrt0.r30 )
+@ mcu_init ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\mcu_init.r30 )
+@ ser_poll_demo ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ser_poll_demo.r30 )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0 ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ncrt0.r30 )
+@ mcu_init ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\mcu_init.r30 )
+@ ser_poll_demo ( C:\Documents and Settings\Nikhil Khatu\Desktop\AplhaWolf\SerPoll\SerPoll\Debug\ser_poll_demo.r30 )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
